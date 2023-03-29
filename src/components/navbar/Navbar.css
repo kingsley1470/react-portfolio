@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: right;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-top: 1.5vw;
   font-weight: lighter;
 }
@@ -23,9 +23,9 @@
 }
 /* navbar logo */
 .logo {
-  margin-left: 0.5rem;
-  font-size: 1.5rem;
-  color: var(--font);
+  margin-left: 0.9rem;
+  /* font-size: 1.5rem; */
+  /* color: var(--font); */
 }
 
 .nav-menu {

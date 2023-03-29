@@ -16,10 +16,10 @@ class Navbar extends Component {
         <h1 className="navbar-logo">
           <Link to="home" spy={true} smooth={true}>
             <img
-              src="king"
+              src="images/logofm.svg"
               alt="logo"
               height="50"
-              width="50"
+              width="200"
               className="logo"
             />
           </Link>
