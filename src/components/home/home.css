@@ -4,16 +4,16 @@
   --right-gap: 6.51vw;
   --left-gap: 6.51vw;
   --fontsize: 2.8rem;
-  --sub-heading: #90acd1;
+  --sub-heading: #222222;
   --main-font: #222222;
   --special-font: #e45447;
-  --background: #e1f5fe;
-  --light-heading: #777777;
+  /* --background: #4c616c; */
+  /* --light-heading: #777777; */
 }
 
-.Home {
+/* .Home {
   background-color: var(--background);
-}
+} */
 
 /* grid */
 .container {
@@ -27,11 +27,16 @@
     grid-template-columns: 50% 50%;
     height: auto;
     padding-bottom: 10vh;
+    padding-top: 10vh;
   }
 }
 
+.great {
+  font-weight: 700;
+}
+
 .header {
-  padding-top: var(--top-gap);
+  padding-top: 10vh;
   padding-bottom: var(--top-gap);
   padding-right: var(--right-gap);
 }
@@ -39,7 +44,7 @@
 .image {
   justify-content: center;
   text-align: center;
-  padding-top: var(--top-gap);
+  /* padding-top: var(--top-gap); */
 }
 @media screen and (min-width: 960px) {
   .image {
@@ -52,16 +57,16 @@
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
-  color: var(--sub-heading);
+  /* color: var(--sub-heading); */
   letter-spacing: 4px;
 }
 
 /* Masudha Meher name */
 .myName {
-  font-size: var(--fontsize);
+  /* font-size: var(--fontsize); */
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
-  color: var(--main-font);
+  /* color: var(--main-font); */
   display: block;
 }
 
@@ -81,7 +86,7 @@ h2 {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  color: var(--main-font);
+  /* color: var(--main-font); */
   opacity: 0.8;
   font-weight: 200;
   font-size: 18px;
@@ -114,7 +119,7 @@ h2 {
 }
 
 .custom-animation {
-   backface-visibility: hidden; 
+  backface-visibility: hidden;
   animation: jumping 9s ease-in-out 2s infinite alternate;
   animation-duration: 9s;
   animation-timing-function: ease-in-out;
@@ -155,4 +160,3 @@ h2 {
     opacity: 0.7;
   }
 }
-

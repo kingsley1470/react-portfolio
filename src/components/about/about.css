@@ -1,12 +1,18 @@
 .About {
   background-color: var(--background);
-  padding-top: 10vh;
+  padding-top: 0vh;
   padding-bottom: 5vh;
 }
 
 .about-container {
   display: grid;
 }
+
+
+/* .about .divider{
+  display: flex;
+  justify-content: flex-start;
+} */
 
 @media screen and (min-width: 960px) {
   .about-container {
@@ -19,7 +25,7 @@
   color: var(--main-font);
   font-weight: bolder;
   position: relative;
-  text-align: left;
+   text-align: left; 
   font-size: 2.8rem;
   font-family: "Poppins", sans-serif;
   
@@ -32,9 +38,14 @@
 }
 
 .divider {
-  width: 30%;
+  width: 20%;
   position: relative;
-  border-top: 5px solid var(--special-font);
+   border-top: 5px solid var(--special-font); 
+}
+
+.about,
+.div2{
+  width: 40%;
 }
 
 /* two liner intro */

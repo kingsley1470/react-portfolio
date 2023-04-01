@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { Component } from "react";
+import SkillsIcons from "./Icons";
 
-const Skills = () => {
-  return (
-    <div>
-      hello
-    </div>
-  )
+
+class Skills extends Component {
+  render() {
+    return (
+      <div className="skills"  id="skill">
+        <h3
+          style={{
+            fontWeight: "700",
+            marginBottom: "30px",
+            fontSize: "24px",
+            fontFamily: "Poppins"
+          }}
+        >
+          Skills
+        </h3>
+
+        <SkillsIcons />
+      </div>
+    );
+  }
 }
 
-export default Skills
+export default Skills;

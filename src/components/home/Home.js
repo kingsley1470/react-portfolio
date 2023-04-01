@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Intro from "./Intro";
- import "./home.css";
+import "./home.css";
 
 class Home extends Component {
   render() {
@@ -14,10 +14,8 @@ class Home extends Component {
               <Intro />
             </h2>
             <br />
-            <h2>
-            Great ideas, beautifully executed & commercially.
-        </h2>
-            {/* <button className="contact-me"> Contact Me</button> */}
+            <h2 className="great">Great ideas,<span class="bold"></span> beautifully executed & commercially.</h2>
+             <button className="contact-me"> Contact Me</button> 
           </div>
           <div className="container">
             <div className="hero-shape custom-animation">
@@ -32,7 +30,7 @@ class Home extends Component {
             <div className="image image-fluid">
               <img
                 src="images/coding.jpeg"
-                alt="Masudha"
+                alt="coding-pic"
                 height="300"
                 width="300"
               />

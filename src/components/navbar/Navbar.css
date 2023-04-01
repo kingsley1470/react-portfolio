@@ -1,7 +1,7 @@
 :root {
   --font: #222222;
   --hover: #e45447;
-  --background: #ecf4fc;
+  /* --background: #4c616c; */
 }
 .NavbarItems {
   background: var(--background);

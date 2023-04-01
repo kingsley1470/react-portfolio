@@ -9,16 +9,16 @@ class About extends Component {
         <div className="container">
           <div className="about-image">
             <img
-              src="https://i.pinimg.com/originals/31/0c/fa/310cfac3d064ea29c2401793496f06ac.png"
-              alt="Masudha"
-              height="300"
+              src="logo192.png"
+              alt="kingsley-pic"
+              height="400"
               width="300"
             />
           </div>
           <div className="about-section">
             <h1 className="about-header">
               About Me
-              <hr className="divider" />
+              <hr className="divider div2" />
             </h1>
 
             <h3 className="about-intro">
