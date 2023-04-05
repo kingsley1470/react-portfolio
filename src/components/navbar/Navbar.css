@@ -1,6 +1,6 @@
 :root {
   --font: #222222;
-  --hover: #e45447;
+  --hover:#242f40;
   /* --background: #4c616c; */
 }
 .NavbarItems {
@@ -63,6 +63,11 @@
   display: none;
 }
 
+
+
+
+
+
 /* responsive view */
 @media screen and (max-width: 960px) {
   .NavbarItems {
@@ -93,11 +98,13 @@
     display: table;
   }
 
-  .nav-link:hover {
+   .nav-link:hover {
     background-color: var(--hover);
-    border-radius: 0;
-  }
-
+    border-radius: 10px;
+  
+  } 
+   
+ 
   .navbar-logo {
     position: absolute;
     top: 0;

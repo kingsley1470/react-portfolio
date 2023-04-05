@@ -1,43 +1,91 @@
+import { Component, createRef } from "react";
+import "./contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { RiWhatsappLine } from "react-icons/ri";
+import emailjs from "@emailjs/browser";
 
-import './contact.css';
-import React, { useState } from 'react';
 
-function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
 
-  const handleChange = event => {
-    const { name, value } = event.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value
-    }));
-  };
+class Contact extends Component {
+  constructor() {
+    super();
+    this.form = createRef();
+  }
+  sendEmail(e) {
+    e.preventDefault();
 
-  const handleSubmit = event => {
-    event.preventDefault();
-    // TODO: Submit form data to server or API
-    console.log(formData);
-  };
-
-  return (
-    <div className="contact-page">
-      <h1>Contact Us</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} />
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" value={formData.message} onChange={handleChange}></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-  );
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        this.form.current,
+        "YOUR_USER_ID"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+  render() {
+    return (
+      <section id="contact">
+        
+        <h2 className="experienct__title" >Contact Me</h2>
+        <hr
+          className="divider"
+          style={{
+            margin: "auto"
+          }}
+        />
+        <div className="container contact__container">
+          <div className="contact__options">
+            <div className="contact__option">
+              <MdOutlineEmail className="contact__option-icon" />
+              <h4>Email</h4>
+              <h5>rawkingsley@gmail.com</h5>
+              <a href="mailto:rawkingsley@gmail.com">Send a message</a>
+            </div>
+            <div className="contact__option">
+              <RiWhatsappLine className="contact__option-icon" />
+              <h4>Whatsapp</h4>
+              <h5>+4917670111130</h5>
+              <a href="https://api.whatsapp.com/send?phone=4917670111130">
+                Send a message
+              </a>
+            </div>
+          </div>
+          <form ref={this.form} onSubmit={this.sendEmail} action="">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    );
+  }
 }
 
 export default Contact;
-

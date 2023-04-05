@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-// import { Row, Col } from "react-bootstrap";
- import "bootstrap/dist/css/bootstrap.css";
+import { Row, Col } from "react-bootstrap";
+//  import "bootstrap/dist/css/bootstrap.css";
 import { WebIcons } from "./WebDetails";
-// import "../Resume.scss";
+import "./skills.css";
 
-class SkillsIcons extends Component {
+class Icons extends Component {
   render() {
     return (
       <div>
-       
+        <Col>
           Web Technologies
-       <div className="skills-container">
+          <Row>
             {WebIcons.map((item, index) => {
               return (
                 <div className="skills-card">
@@ -25,15 +25,14 @@ class SkillsIcons extends Component {
                     {"   "}
                     {item.name}
                   </span>
-                  </div>
-                
+                </div>
               );
             })}
-          
-      </div>
+          </Row>
+        </Col>
       </div>
     );
   }
 }
 
-export default SkillsIcons;
+export default Icons;

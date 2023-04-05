@@ -1,7 +1,7 @@
 export const Details = [
   {
     title: "Name: ",
-    value: "Masudha Meher"
+    value: "Kingsley Nwachukwu"
   },
   {
     title: "Email: ",

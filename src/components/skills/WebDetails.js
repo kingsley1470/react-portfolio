@@ -1,37 +1,36 @@
 export const WebIcons = [
   {
-    imgurl: "logo512.png",
+    imgurl: "images/html5.svg",
     alt: "html-icon",
     name: "HTML5"
   },
   {
-    imgurl: "logo512.png",
+    imgurl: "images/css-3.svg",
     alt: "css-icon",
     name: "CSS3"
   },
   {
-    imgurl: "logo512.png",
+    imgurl: "images/sass.svg",
     alt: "sass-icon",
     name: "Sass"
   },
   {
-    imgurl: "logo512.png",
+    imgurl: "images/bootstrap.svg",
     alt: "bootstrap-icon",
     name: "Bootstrap"
   },
   {
-    imgurl: "logo512.png",
+    imgurl: "images/flutter.svg",
     alt: "flutter-icon",
     name: "Flutter"
   },
- 
   {
-    imgurl: "logo512.png",
+    imgurl: "images/javascript.svg",
     alt: "javascript-icon",
     name: "Javascript"
   },
   {
-    imgurl: "logo512.png",
+    imgurl: "images/react.svg",
     alt: "react-icon",
     name: "React JS"
   }

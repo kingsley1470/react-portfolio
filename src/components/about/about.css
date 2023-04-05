@@ -1,11 +1,12 @@
-.About {
-  background-color: var(--background);
+/* .About {
+  
   padding-top: 0vh;
   padding-bottom: 5vh;
-}
+} */
 
 .about-container {
   display: grid;
+  justify-content: center;
 }
 
 
@@ -13,12 +14,25 @@
   display: flex;
   justify-content: flex-start;
 } */
-
+  img, svg {
+    vertical-align: middle;
+    height: auto;
+     width: 100%; 
+}
 @media screen and (min-width: 960px) {
   .about-container {
     grid-template-columns: 50% 50%;
     height: var(--min-height);
   }
+  .about-section {
+padding-right: 20%;
+  }
+  img, svg {
+    vertical-align: middle;
+    /* height: auto; */
+     width: 72%; 
+}
+
 }
 /* about me */
 .about-header {
@@ -31,21 +45,24 @@
   
 }
 
-.about-image {
-  display:flex;
+.about-image img {
+  /* display:flex;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
+ 
 }
 
 .divider {
   width: 20%;
   position: relative;
-   border-top: 5px solid var(--special-font); 
+   border-top: 5px solid #1c2b33; 
 }
 
 .about,
 .div2{
   width: 40%;
+padding: 0;
+margin: 0;
 }
 
 /* two liner intro */
@@ -56,8 +73,8 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: "Roboto", sans-serif;
-  color: var(--light-heading);
-  font-size: 15px;
+
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.625em;
   text-align: left;
@@ -75,7 +92,7 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: "Roboto", sans-serif;
-  color: var(--light-heading);
+
   font-size: 15px;
   font-weight: 400;
   line-height: 1.625em;

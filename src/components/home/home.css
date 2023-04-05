@@ -1,35 +1,65 @@
 :root {
-  --min-height: 80vh;
+  --min-height: 100vh;
   --top-gap: 3.25vw;
   --right-gap: 6.51vw;
   --left-gap: 6.51vw;
-  --fontsize: 2.8rem;
+
   --sub-heading: #222222;
   --main-font: #222222;
-  --special-font: #e45447;
-  /* --background: #4c616c; */
-  /* --light-heading: #777777; */
+  /* --special-font: #e45447; */
+  --backface-visibility: visible;
 }
 
-/* .Home {
-  background-color: var(--background);
+/* h2 {
+  color: #1c2b33;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 30px;
+  font-family: "Cormorant", serif;
 } */
 
-/* grid */
 .container {
   display: grid;
   height: auto;
-  padding-bottom: 10vh;
+  /* padding-bottom: 20vh; */
+  overflow: hidden;
 }
 /* when on desktop or larger screens */
 @media screen and (min-width: 960px) {
   .container {
     grid-template-columns: 50% 50%;
     height: auto;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 24vh;
+    padding-top: 11.5vh;
+    padding-left: 10%;
   }
+ 
+  h2 {
+    color: #1c2b33;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px;
+    font-family: "Cormorant", serif;
+  }
+  .subheading {
+  font-family: "lastica";
+  font-weight: 700;
+  font-size: 16px;
+  color: #1c2b33;
+  display: block;
+  
 }
+ 
+} 
+.subheading {
+  font-family: "lastica";
+  font-weight: 700;
+  font-size: 16px;
+  color: #1c2b33;
+  
+}
+
+
 
 .great {
   font-weight: 700;
@@ -37,46 +67,42 @@
 
 .header {
   padding-top: 10vh;
-  padding-bottom: var(--top-gap);
-  padding-right: var(--right-gap);
+  /* padding-bottom: var(--top-gap);
+  padding-right: var(--right-gap); */
+  justify-content: center;
 }
 
 .image {
   justify-content: center;
   text-align: center;
-  /* padding-top: var(--top-gap); */
 }
 @media screen and (min-width: 960px) {
   .image {
     padding-left: 200px;
   }
-}
 
-/* Hey, I am text */
-.subheading {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
-  /* color: var(--sub-heading); */
-  letter-spacing: 4px;
+  .subheading {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+  }
 }
 
 /* Masudha Meher name */
 .myName {
-  /* font-size: var(--fontsize); */
-  font-weight: bolder;
-  font-family: "Poppins", sans-serif;
-  /* color: var(--main-font); */
+  --backface-visibility: var(--left-gap);
+
+  font-family: "lastica";
+
+  font-weight: 700;
+  font-size: 36px;
+  color: #1c2b33;
   display: block;
 }
 
 /* animated text */
-h2 {
-  color: var(--special-font);
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 42px;
-}
 
 /* two liner into */
 .introduction {
@@ -86,7 +112,7 @@ h2 {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  /* color: var(--main-font); */
+  font-family: "lastica";
   opacity: 0.8;
   font-weight: 200;
   font-size: 18px;
@@ -119,8 +145,8 @@ h2 {
 }
 
 .custom-animation {
-  backface-visibility: hidden;
-  animation: jumping 9s ease-in-out 2s infinite alternate;
+  --backface-visibility: hidden;
+
   animation-duration: 9s;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
@@ -131,32 +157,21 @@ h2 {
   animation-name: jumping;
   animation-delay: 1s;
   transition: all 7s ease 2s;
-  user-select: none;
+  --user-select: none;
+}
+
+.hero-shape custom-animation {
+  display: flex;
 }
 
 @keyframes jumping {
   0% {
-    transform: translateY(10px) translateX(0) rotate(0) scale(1);
+    transform: translateY(10) translateX(0) rotate(0) scale(1);
     opacity: 0.9;
   }
-  20% {
-    transform: translateY(20px) translateX(10px) rotate(-20deg) scale(0.8);
-    opacity: 0.8;
-  }
-  40% {
-    transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.75);
-    opacity: 0.8;
-  }
-  40% {
-    transform: translateY(-15px) translateX(-25px) rotate(10deg) scale(0.5);
-    opacity: 1;
-  }
-  80% {
-    transform: translateY(-30px) translateX(20px) rotate(-20deg) scale(0.75);
-    opacity: 0.6;
-  }
+
   100% {
-    transform: translateY(15px) translateX(15px) rotate(0) scale(0.95);
-    opacity: 0.7;
+    transform: translateY(55px) translateX(0px) rotate(0) scale(0.95);
+    opacity: 0;
   }
 }

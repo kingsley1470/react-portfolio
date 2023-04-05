@@ -3,8 +3,8 @@ import TypeIt from "typeit-react";
 function Intro() {
   return (
     <TypeIt
-      // speed="10"
-      // autoStart = "true"
+      //  speed="10"
+      //  autoStart = "true"
       getBeforeInit={(instance) => {
         instance
           .type("I'm a Web Developer.")

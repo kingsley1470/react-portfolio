@@ -3,15 +3,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  background-color: #4c616c;
+  background-color: #242f40;
 }
 
 .follow {
   display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
+  /* margin-block-start: 1.33em;
+  margin-block-end: 1.33em; */
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-size: 21px;
@@ -28,21 +26,21 @@
 }
 
 .social-logo:hover {
-  color: #e45447;
+  color: #242f40;
   transition: all 0.3s ease 0s;
 }
 
 .my-name {
-  color: #e45447;
+  color: #242f40;
   text-decoration: none;
 }
 .my-name:hover {
   text-decoration: none;
-  color: #e45447;
+  color: #242f40;
 }
 
 #scrollUp {
-  background: #e45447;
+  background: #242f40;
   height: 50px;
   width: 50px;
   right: 31px;

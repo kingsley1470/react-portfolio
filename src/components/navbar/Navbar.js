@@ -3,6 +3,7 @@ import { MenuItems } from './MenuItems';
 import { Link } from "react-scroll";
 import "./Navbar.css";
 
+
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
@@ -16,8 +17,8 @@ class Navbar extends Component {
         <h1 className="navbar-logo">
           <Link to="home" spy={true} smooth={true}>
             <img
-              src="images/logofm.svg"
-              alt="logo"
+              src=""
+              alt="Kingsley"
               height="50"
               width="200"
               className="logo"
