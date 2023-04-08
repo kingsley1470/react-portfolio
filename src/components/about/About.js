@@ -11,8 +11,8 @@ class About extends Component {
             <img
               src="https://i.ibb.co/qrQr9R9/pro-pic.png"
               alt="kingsley-pic"
-              height="750"
-              width="600"
+               height=""
+               width=""
             />
           </div>
           <div className="about-section">

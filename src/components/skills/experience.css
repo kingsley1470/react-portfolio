@@ -55,13 +55,14 @@
     gap: 1rem;
   }
   .experience__container > div {
-    width: 100%;
+    /* width: 100%; */
     padding: 2rem 2rem;
   }
 }
 .experienct__title {
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .experience__backend {

@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home" id="home">
-        <div className="container">
+        <div className="home_container">
           <div className="header">
             <span class="subheading">Hey! I am </span>
             <h1 className="myName"> kingsley Nwachukwu!</h1>
@@ -22,7 +22,7 @@ class Home extends Component {
               <img
                 src="images/coding.jpeg"
                 alt="animation"
-                height="50"
+                height="100%"
                 width="50"
                 style={{ opacity: "0.5" }}
               />

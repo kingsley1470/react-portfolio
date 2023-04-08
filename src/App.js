@@ -8,14 +8,14 @@ import { BrowserRouter as Routex, Switch, Route } from "react-router-dom";
 import Skills from "./components/skills/Experience";
 import Footer from "./components/footer/Footer";
 import Experience from "./components/skills/Experience";
-import Nav from "./components/navbar/Nav";
+// import Nav from "./components/navbar/Nav";
 
 function App() {
   return (
     <Routex>
       <div className="App">
         <Navbar />
-        <Nav />
+        {/* <Nav /> */}
         <Home />
         <About />
         <Experience />

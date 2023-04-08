@@ -17,16 +17,20 @@
   line-height: 30px;
   font-family: "Cormorant", serif;
 } */
-
-.container {
+.container2{
+  display: flex;
+  justify-content: center;
+}
+.home_container {
   display: grid;
   height: auto;
-  /* padding-bottom: 20vh; */
+  padding-bottom: 5vh; 
   overflow: hidden;
 }
+
 /* when on desktop or larger screens */
 @media screen and (min-width: 960px) {
-  .container {
+  .home_container {
     grid-template-columns: 50% 50%;
     height: auto;
     padding-bottom: 24vh;
@@ -78,7 +82,7 @@
 }
 @media screen and (min-width: 960px) {
   .image {
-    padding-left: 200px;
+    /* padding-left: 200px; */
   }
 
   .subheading {
@@ -90,7 +94,13 @@
   }
 }
 
-/* Masudha Meher name */
+
+.hero-shape custom-animation{
+  display: flex;
+  justify-content: center;
+}
+
+
 .myName {
   --backface-visibility: var(--left-gap);
 
@@ -118,7 +128,7 @@
   font-size: 18px;
 }
 /* contact me button */
-.contact-me {
+/* .contact-me {
   background: var(--sub-heading);
   text-transform: capitalize;
   color: #fff;
@@ -135,11 +145,11 @@
   z-index: 1;
   border: 0;
   overflow: hidden;
-}
+} */
 
 /* animated circle */
 .hero-shape {
-  position: absolute;
+  /* position: absolute; */
   top: 13%;
   left: 51%;
 }

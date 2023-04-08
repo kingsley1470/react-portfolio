@@ -14,16 +14,22 @@
   display: flex;
   justify-content: flex-start;
 } */
+
   img, svg {
     vertical-align: middle;
     height: auto;
      width: 100%; 
-}
+}  
 @media screen and (min-width: 960px) {
   .about-container {
     grid-template-columns: 50% 50%;
     height: var(--min-height);
   }
+  img, svg {
+    vertical-align: middle;
+    height: auto;
+     width: 100%; 
+}  
   .about-section {
 padding-right: 20%;
   }
@@ -34,9 +40,11 @@ padding-right: 20%;
 }
 
 }
-/* about me */
+
 .about-header {
-  color: var(--main-font);
+display: flex;
+flex-direction: column;
+align-items: center;
   font-weight: bolder;
   position: relative;
    text-align: left; 
@@ -105,8 +113,8 @@ margin: 0;
 .about-title {
   font-size: 16px;
   font-weight: 600;
-  color: var(--main-font);
   width: 130px;
+ 
 }
 
 .about-body {
