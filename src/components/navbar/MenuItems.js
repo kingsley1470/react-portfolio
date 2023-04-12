@@ -6,7 +6,7 @@ export const MenuItems = [
   },
 
   {
-    title: "About Me",
+    title: "About",
     url: "about",
     cName: "nav-links"
   },

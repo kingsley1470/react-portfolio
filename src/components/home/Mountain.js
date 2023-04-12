@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-function Dog() {
+function Mountain() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -15,13 +15,6 @@ function Dog() {
     ctx.fillStyle = '#777777';
     ctx.fill();
 
-    // draw the snow cap
-    ctx.beginPath();
-    ctx.moveTo(1, 1);
-    ctx.lineTo(111, 111);
-    ctx.lineTo(11, 12);
-    ctx.fillStyle = '#5c6274 ';
-    ctx.fill();
 
     // draw the sun
     ctx.beginPath();
@@ -33,4 +26,4 @@ function Dog() {
   return <canvas ref={canvasRef} width={400} height={300} />;
 }
 
-export default Dog;
+export default Mountain;

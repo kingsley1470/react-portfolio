@@ -1,7 +1,7 @@
 :root {
   --font: #222222;
   --hover:#242f40;
-  /* --background: #4c616c; */
+ 
 }
 .NavbarItems {
   background: var(--background);
@@ -9,23 +9,24 @@
   display: flex;
   justify-content: center;
   align-items: right;
-  font-size: 1.5rem;
+   font-size: 1.5rem; 
   padding-top: 1.5vw;
   font-weight: lighter;
 }
 
 .navbar-logo {
   color: var(--font);
+  display: flex;
   justify-self: start;
+  align-items: center;
   margin-left: 20px;
   cursor: pointer;
   bottom: 40px;
+  font-family: 'Bungee Shade', cursive;
 }
 /* navbar logo */
 .logo {
   margin-left: 0.9rem;
-  /* font-size: 1.5rem; */
-  /* color: var(--font); */
 }
 
 .nav-menu {
@@ -72,17 +73,19 @@
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+font-size: 0.9rem; 
+
   }
 
   .nav-menu {
     display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 90vh;
     position: absolute;
     top: 70px;
-    left: -100%;
+     left: -110%; 
     opacity: 1;
+    margin: -20px; 
+    /* padding-right: 20px; */
     transition: all 0.5s ease;
   }
   .nav-menu.active {
@@ -91,11 +94,16 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-  }
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+  
   .nav-links {
     text-align: center;
     width: 100%;
-    display: table;
+    display: table; 
   }
 
    .nav-link:hover {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MDBIcon, MDBContainer } from "mdbreact";
 import { Link } from "react-scroll";
-import { BiBook } from "react-icons/bi";
+
 import "./footer.css";
 
 class Footer extends Component {
@@ -43,8 +43,8 @@ class Footer extends Component {
            smooth={true}
            style={{ position: "fixed", zIndex: "2147483647" }}
         >
-           {/* <i class="fas fa-angle-up"></i>  */}
-           <BiBook />
+            <i class="fas fa-angle-up"></i> 
+         
 
         </Link>
        

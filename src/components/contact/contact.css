@@ -46,13 +46,14 @@ textarea {
   border-radius: 0.5rem;
   background: transparent;
   border: 2px solid black;
-  resize: none;
   color: var(--color-white);
 }
 .btn-contact{
-  width: 50%;
+  width: 200px;
   height: 40px;
   border-radius: 0.5rem;
+  color:#e9e4e4;
+  background-color:rgb(96, 96, 98) ;
 
 }
 
@@ -62,7 +63,12 @@ textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  /* .btn-contact{
+    width: 10%;
+    height: 40px;
+    border-radius: 0.5rem;
   
+  } */
 .contact__container {
 
   display: flex;

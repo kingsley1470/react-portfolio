@@ -55,7 +55,7 @@ import { RiWhatsappLine } from "react-icons/ri";
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <button className='btn-contact' onClick={{}}>Send</button>
     </form>
     </div>
      </section>
