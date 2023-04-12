@@ -1,8 +1,4 @@
 :root {
-
-
-  --sub-heading: #222222;
-  --main-font: #222222;
   --backface-visibility: visible;
 }
 
@@ -13,7 +9,7 @@
 .home_container {
   display: grid;
   height: auto;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   overflow: hidden;
 }
 
@@ -27,7 +23,7 @@
   }
 
   h2 {
-    color: #1c2b33;
+    /* color: #1c2b33; */
     font-weight: 600;
     font-size: 40px;
     line-height: 30px;
@@ -37,15 +33,15 @@
     font-family: "lastica";
     font-weight: 700;
     font-size: 16px;
-    color: #1c2b33;
+    /* color: #1c2b33; */
     display: block;
   }
 }
 .subheading {
-  font-family: "lastica";
-  font-weight: 700;
+  font-family: "";
+
   font-size: 16px;
-  color: #1c2b33;
+  /* color: #1c2b33; */
 }
 
 .great {
@@ -83,7 +79,7 @@
   font-family: "lastica";
   font-weight: 700;
   font-size: 36px;
-  color: #1c2b33;
+  /* color: #1c2b33; */
   display: block;
 }
 

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Intro from "./Intro";
 import Mountain from "./Mountain";
-import "./home.css";
+ import "./home.css";
+// import Mode from "./Mode";
 
 class Home extends Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends Component {
       <div className="Home" id="home">
         <div className="home_container">
           <div className="header">
-            <span class="subheading">Hey! I am </span>
+            <span class="subheading">Hey! <br></br>I am </span>
             <h1 className="myName"> kingsley Nwachukwu!</h1>
             <h2>
               <Intro />

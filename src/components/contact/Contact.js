@@ -36,13 +36,13 @@ import { RiWhatsappLine } from "react-icons/ri";
           <MdOutlineEmail className="contact__option-icon" />
           <h4>Email</h4>
           <h5>rawkingsley@gmail.com</h5>
-          <a href="mailto:rawkingsley@gmail.com">Send a message</a>
+          <a style={{color: "#7da47db0"}} href="mailto:rawkingsley@gmail.com">Send a message</a>
         </div>
         <div className="contact__option">
           <RiWhatsappLine className="contact__option-icon" />
           <h4>Whatsapp</h4>
           <h5>+4917670111130</h5>
-          <a href="https://api.whatsapp.com/send?phone=4917670111130">
+          <a style={{color: "#7da47db0"}} href="https://api.whatsapp.com/send?phone=4917670111130">
             Send a message
           </a>
         </div>
@@ -55,7 +55,7 @@ import { RiWhatsappLine } from "react-icons/ri";
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <button className='btn-contact' onClick={{}}>Send</button>
+      <button className='btn-contact' onClick={{Contact}}>Send</button>
     </form>
     </div>
      </section>

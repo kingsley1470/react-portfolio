@@ -1,5 +1,5 @@
 :root {
-  --font: #222222;
+  /* --font: #222222; */
   --hover:#242f40;
  
 }
@@ -8,9 +8,9 @@
   height: 70px;
   display: flex;
   justify-content: center;
-  align-items: right;
+  align-items: center;
    font-size: 1.5rem; 
-  padding-top: 1.5vw;
+  /* padding-top: 1.5vw; */
   font-weight: lighter;
 }
 
@@ -72,10 +72,14 @@
 /* responsive view */
 @media screen and (max-width: 960px) {
   .NavbarItems {
+    display: flex;
     position: relative;
-font-size: 0.9rem; 
-
-  }
+    font-size: 0.9rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15%;
+    margin-top: auto;
+}
 
   .nav-menu {
     display: flex;

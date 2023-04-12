@@ -2,6 +2,7 @@
 import { MenuItems } from './MenuItems';
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import Mode from "./Mode"
 
 
 class Navbar extends Component {
@@ -36,9 +37,13 @@ class Navbar extends Component {
               >
                 <li key={index}>{item.title}</li>
               </Link>
+            
             );
           })}
-        </ul>
+        </ul>  
+        <div>
+          <Mode />
+              </div>
       </nav>
     );
   }
