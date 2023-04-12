@@ -16,13 +16,7 @@ class Navbar extends Component {
       <nav className="NavbarItems" id="top">
         <h1 className="navbar-logo">
           <Link to="home" spy={true} smooth={true}>
-            <img
-              src=""
-              alt="Kingsley"
-              height="50"
-              width="200"
-              className="logo"
-            />
+          <h1>kcn</h1>
           </Link>
         </h1>
         <div className="menu-icon" onClick={this.handleClick}>

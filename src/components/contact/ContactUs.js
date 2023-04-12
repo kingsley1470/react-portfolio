@@ -1,20 +1,18 @@
-// import { Component } from "react";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiWhatsappLine } from "react-icons/ri";
 
- const Contact = () => {
+export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ngegl2j', 'template_on201gq', form.current, 'qDUicVXIOxmVy0rMb')
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
       .then((result) => {
           console.log(result.text);
-         
       }, (error) => {
           console.log(error.text);
       });
@@ -61,6 +59,3 @@ import { RiWhatsappLine } from "react-icons/ri";
      </section>
   );
 };
-
-
-export default Contact;

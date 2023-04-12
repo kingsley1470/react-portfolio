@@ -10,7 +10,8 @@ const data = [
     image: PIC1,
     title: "landing page ",
     github: "https://github.com/kingsley1470",
-    demo: "https://inext.dev"
+    demo: "https://inext.dev",
+    
   },
   {
     id: 2,
@@ -33,7 +34,7 @@ class Portfolio extends Component {
             margin: "auto"
           }}
         />
-        <div className="container portfolio__container">
+        <div className="container-p portfolio__container">
           {data.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="portfolio__item">

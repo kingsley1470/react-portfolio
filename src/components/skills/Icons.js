@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { Row, Col } from "react-bootstrap";
-//  import "bootstrap/dist/css/bootstrap.css";
-import { WebIcons } from "./WebDetails";
-import "./skills.css";
+// import React, { Component } from "react";
+// import { Row, Col } from "react-bootstrap";
+// //  import "bootstrap/dist/css/bootstrap.css";
+// import { WebIcons } from "./WebDetails";
+// import "./skills.css";
 
 class Icons extends Component {
   render() {

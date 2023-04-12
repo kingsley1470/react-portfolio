@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Intro from "./Intro";
+import Dog from "./Dog";
 import "./home.css";
 
 class Home extends Component {
@@ -18,23 +19,17 @@ class Home extends Component {
              {/* <button className="contact-me"> Contact Me</button>  */}
           </div>
           <div className="container2">
-            <div className="hero-shape custom-animation">
-              <img
+             <div className="hero-shape custom-animation">
+              {/* <img
                 src="images/coding.jpeg"
                 alt="animation"
                 height="100%"
                 width="50"
                 style={{ opacity: "0.5" }}
-              />
-            </div>
-            {/* <div className="image image-fluid">
-              <img
-                src="images/coding.jpeg"
-                alt="coding-pic"
-                height="300"
-                width="300"
-              />
-            </div> */}
+              /> */}
+              <Dog />
+            </div> 
+        
           </div>
         </div>
       </div>

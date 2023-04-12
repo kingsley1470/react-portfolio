@@ -4,9 +4,9 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 
 import { BiMessageSquareDetail } from "react-icons/bi";
-import "./nav.css";
+ import "./nav.css";
 
-import { useState } from "react";
+// import { useState } from "react";
 
 class Nav extends Component {
   constructor() {
@@ -20,7 +20,7 @@ class Nav extends Component {
         <a
           onClick={() => this.setState({ active: "#" })}
           className={this.state.active == "#" ? "active" : ""}
-          href="#"
+          href="#" style={{widows:"20px"}}
         >
           <AiOutlineHome />
         </a>
@@ -38,13 +38,7 @@ class Nav extends Component {
         >
           <BiBook />
         </a>
-        {/* <a
-          onClick={() => this.setState({ active: "#services" })}
-          className={this.state.active == "#services" ? "active" : ""}
-          href="#services"
-        >
-          <RiServiceLine />
-        </a> */}
+   
         <a
           onClick={() => this.setState({ active: "#contact" })}
           className={this.state.active == "#contact" ? "active" : ""}

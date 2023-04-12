@@ -1,6 +1,19 @@
-import { Component } from "react";
-import { BsPatchCheckFill } from "react-icons/bs";
+ import { Component } from "react";
+// import { BsPatchCheckFill } from "react-icons/bs";
 import "./experience.css";
+
+import { FaHtml5, FaCss3, FaJs,
+  FaBootstrap,
+  FaReact,
+  FaNodeJs,
+  FaGithub,
+  FaFigma,
+  FaNode,
+  FaMdb,
+  
+  
+} from 'react-icons/fa';
+import { FaUserCircle } from 'react-icons/fa';
 
 class Experience extends Component {
   render() {
@@ -18,45 +31,45 @@ class Experience extends Component {
             <h3>Frontend Development</h3>
             <div className="experience__content">
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaHtml5   />
                 <div>
                   <h4>HTML</h4>
-                  <small className="text-light">Experienced</small>
+            
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaCss3 />
                 <div>
                   <h4>CSS</h4>
                   <small className="text-light">Advandced</small>
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaJs />
                 <div>
                   <h4>Javascript</h4>
-                  <small className="text-light"></small>
+          
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaUserCircle />
                 <div>
                   <h4>Tailwind</h4>
-                  <small className="text-light"></small>
+             
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaBootstrap />
                 <div>
                   <h4>Bootstrap</h4>
-                  <small className="text-light"></small>
+                  
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaReact />
                 <div>
                   <h4>React</h4>
-                  <small className="text-light"></small>
+           
                 </div>
               </article>
             </div>
@@ -65,38 +78,45 @@ class Experience extends Component {
             <h3>Backend Development</h3>
             <div className="experience__content">
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+             <FaNodeJs />
                 <div>
                   <h4>NodeJs</h4>
-                  <small className="text-light"></small>
+                  
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaNode  />
                 <div>
                   <h4>Express</h4>
-                  <small className="text-light"></small>
+                
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaMdb  />
                 <div>
-                  <h4>Mongo</h4>
-                  <small className="text-light"></small>
+                  <h4>Mdb</h4>
+                 
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+                <FaGithub  />
                 <div>
-                  <h4>Next.js</h4>
-                  <small className="text-light"></small>
+                  <h4>Github</h4>
+                 
                 </div>
               </article>
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
+              
                 <div>
                   <h4>MySql</h4>
-                  <small className="text-light"></small>
+              
+                </div>
+              </article>
+              <article className="experience__details">
+                <FaFigma className="experience__details-icon" />
+                <div>
+                  <h4>FiGma</h4>
+              
                 </div>
               </article>
             </div>

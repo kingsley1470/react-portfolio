@@ -1,15 +1,13 @@
 .Footer {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #242f40;
+  background-color: #fcfbfb;
+  border-radius: 2.5rem;
 }
 
 .follow {
   display: block;
-  /* margin-block-start: 1.33em;
-  margin-block-end: 1.33em; */
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-size: 21px;
@@ -31,21 +29,21 @@
 }
 
 .my-name {
-  color: #242f40;
+  color: #1d1d1d;
   text-decoration: none;
 }
 .my-name:hover {
   text-decoration: none;
-  color: #242f40;
+  color: #e1ecfd;
 }
 
 #scrollUp {
-  background: #242f40;
+  background: #edeaea;
   height: 50px;
   width: 50px;
   right: 31px;
   bottom: 18px;
-  color: #fff;
+  color: #605b5b;
   font-size: 20px;
   text-align: center;
   border-radius: 50%;
