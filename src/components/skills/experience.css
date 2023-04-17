@@ -3,6 +3,9 @@
   grid-template-columns: 1fr 1fr;
   /* gap: 2rem; */
 }
+svg{
+  width: 100%;
+}
 .experience__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 15rem;
@@ -45,7 +48,10 @@
   margin: 0 auto;
 }
 .experience__content {
-  padding: 1rem;
+  width: 100%;
+padding: 0;
+margin: 0;
+gap: 6rem;
 }
 /* } */
 
@@ -87,11 +93,17 @@
     margin: 40px;
     padding:40px;
     
-    align-items: center;
+    align-items: flex-start;
     gap: 9rem;
     padding-bottom: 100px;
 }
+.experience__content {
+  width: 100%;
+padding: 0;
+margin: 0;
+gap: 6rem;
 
+}
   .experience__container > div {
   }
 }

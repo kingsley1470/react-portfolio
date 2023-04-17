@@ -1,8 +1,4 @@
-/* .portfolio__container {
-  display: grid;
-  grid-template-columns: repeat(1fr, 1fr);
-  gap: 0.5rem;
-} */
+
 .container-p {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,10 +13,10 @@
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: #ededed; 
-  margin: 0;
-  padding: 0;
- 
+  transition: #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .portfolio__item:hover {
   background: #e9e4e4;
@@ -43,10 +39,25 @@
 
 
 @media screen and (max-width: 1024px) {
-  
+  .portfolio__item {
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
  
-}
+  
 
+}
+  img, svg {
+
+    width: 99%;
+   
+    
+}
 @media screen and (max-width: 600px) {
   .portfolio__container {
     grid-template-columns: 1fr;

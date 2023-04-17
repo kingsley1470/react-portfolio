@@ -72,6 +72,20 @@ class Experience extends Component {
            
                 </div>
               </article>
+              <article className="experience__details">
+                <FaFigma  />
+                <div>
+                  <h4>FiGma</h4>
+              
+                </div>
+              </article>
+               <article className="experience__details">
+                <FaGithub  />
+                <div>
+                  <h4>Github</h4>
+                 
+                </div>
+              </article>
             </div>
           </div>
           <div className="experience__backend">
@@ -98,13 +112,7 @@ class Experience extends Component {
                  
                 </div>
               </article>
-              <article className="experience__details">
-                <FaGithub  />
-                <div>
-                  <h4>Github</h4>
-                 
-                </div>
-              </article>
+             
               <article className="experience__details">
               
                 <div>
@@ -112,13 +120,7 @@ class Experience extends Component {
               
                 </div>
               </article>
-              <article className="experience__details">
-                <FaFigma className="experience__details-icon" />
-                <div>
-                  <h4>FiGma</h4>
-              
-                </div>
-              </article>
+             
             </div>
           </div>
         </div>
