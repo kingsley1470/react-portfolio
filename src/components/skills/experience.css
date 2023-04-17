@@ -3,9 +3,7 @@
   grid-template-columns: 1fr 1fr;
   /* gap: 2rem; */
 }
-svg{
-  width: 100%;
-}
+
 .experience__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 15rem;
@@ -51,7 +49,7 @@ svg{
   width: 100%;
 padding: 0;
 margin: 0;
-gap: 6rem;
+gap: 4rem;
 }
 /* } */
 
