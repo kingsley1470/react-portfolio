@@ -35,13 +35,11 @@ import { RiWhatsappLine } from "react-icons/ri";
         <div className="contact__option">
           <MdOutlineEmail className="contact__option-icon" />
           <h4>Email</h4>
-          <h5>rawkingsley@gmail.com</h5>
           <a style={{color: "#7da47db0"}} href="mailto:rawkingsley@gmail.com">Send a message</a>
         </div>
         <div className="contact__option">
           <RiWhatsappLine className="contact__option-icon" />
           <h4>Whatsapp</h4>
-          <h5>+4917670111130</h5>
           <a style={{color: "#7da47db0"}} href="https://api.whatsapp.com/send?phone=4917670111130">
             Send a message
           </a>

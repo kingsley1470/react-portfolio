@@ -1,4 +1,9 @@
 
+:root {
+  --bg-light: #ffffff;
+  --bg-dark: #1a1a1a;
+}
+
 
 .about-container {
   display: grid;
@@ -25,6 +30,10 @@ border-bottom:2px solid #1c2b33;
     width: 100%;
     border-radius: 20px;
   border-bottom:2px solid #1c2b33;
+
+
+
+  
   }
 }
 
