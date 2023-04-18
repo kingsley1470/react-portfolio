@@ -77,11 +77,11 @@ textarea {
   }
 
   form {
-    width: 100%;
-    height: auto;
     display: flex;
-    flex-direction: column;
     gap: 1.2rem;
+    height: auto;
+    width: 100%;
+    padding-right: 26px;
   }
   input,
   textarea {
