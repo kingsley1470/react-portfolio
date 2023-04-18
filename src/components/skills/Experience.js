@@ -34,56 +34,56 @@ class Experience extends Component {
             <h3>Frontend Development</h3>
             <div className="experience__content">
               <article className="experience__details">
-                <FaHtml5   />
+                <FaHtml5  style={{width:"60px", height:"100%"}} />
                 <div>
                   <h4>HTML</h4>
             
                 </div>
               </article>
               <article className="experience__details">
-                <FaCss3 />
+                <FaCss3 style={{width:"60px", height:"100%"}} />
                 <div>
                   <h4>CSS</h4>
                   <small className="text-light">Advandced</small>
                 </div>
               </article>
               <article className="experience__details">
-                <FaJs />
+                <FaJs style={{width:"60px", height:"100%"}} />
                 <div>
                   <h4>Javascript</h4>
           
                 </div>
               </article>
               <article className="experience__details">
-                <FaUserCircle />
+                <FaUserCircle style={{width:"60px", height:"100%"}}/>
                 <div>
                   <h4>Tailwind</h4>
              
                 </div>
               </article>
               <article className="experience__details">
-                <FaBootstrap />
+                <FaBootstrap style={{width:"60px", height:"100%"}}/>
                 <div>
                   <h4>Bootstrap</h4>
                   
                 </div>
               </article>
               <article className="experience__details">
-                <FaReact />
+                <FaReact style={{width:"60px", height:"100%"}}/>
                 <div>
                   <h4>React</h4>
            
                 </div>
               </article>
               <article className="experience__details">
-                <FaFigma  />
+                <FaFigma style={{width:"60px", height:"100%"}} />
                 <div>
                   <h4>FiGma</h4>
               
                 </div>
               </article>
                <article className="experience__details">
-                <FaGithub  />
+                <FaGithub  style={{width:"60px", height:"100%"}}/>
                 <div>
                   <h4>Github</h4>
                  
@@ -95,21 +95,21 @@ class Experience extends Component {
             <h3>Backend Development</h3>
             <div className="experience__content">
               <article className="experience__details">
-             <FaNodeJs />
+             <FaNodeJs style={{width:"60px", height:"100%"}}/>
                 <div>
                   <h4>NodeJs</h4>
                   
                 </div>
               </article>
               <article className="experience__details">
-                <FaNode  />
+                <FaNode  style={{width:"60px", height:"100%"}}/>
                 <div>
                   <h4>Express</h4>
                 
                 </div>
               </article>
               <article className="experience__details">
-                <FaMdb  />
+                <FaMdb style={{width:"60px", height:"80%"}} />
                 <div>
                   <h4>Mdb</h4>
                  
