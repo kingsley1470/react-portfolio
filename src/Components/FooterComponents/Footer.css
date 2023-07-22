@@ -1,0 +1,57 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border-radius: 20px; */
+  border-top: 1px solid #e2e5e7;
+  margin: 60px;
+}
+.social-links{
+display: flex;
+justify-content: space-evenly;
+}
+.follow {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 21px;
+  color: #777777;
+  font-weight: 700;
+  margin-top: 48px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.social-logo {
+  font-size: 36px;
+  color: #777777;
+}
+
+.social-logo:hover {
+  color: #242f40;
+  transition: all 0.3s ease 0s;
+}
+
+.my-name {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+.my-name:hover {
+  text-decoration: none;
+  color: #e1ecfd;
+}
+
+#scrollUp {
+  background: #edeaea;
+  height: 50px;
+  width: 50px;
+  right: 31px;
+  bottom: 18px;
+  color: #605b5b;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 48px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
