@@ -20,7 +20,7 @@
 
 .container-skills {
   width: 700px;
-  height: 75vh;
+  height: fit-content;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
