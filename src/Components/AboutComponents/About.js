@@ -17,10 +17,10 @@ class About extends Component {
             />
           </div>
           <div className="about-section animate__animated animate__fadeIn">
-            <h1 className="about-header">
+            <h2 className="about-header">
               About Me
-              <hr className="divider div2" />
-            </h1>
+              <hr className="divider-about " />
+            </h2>
 
             <div className="about-grid">
               <div className="about-intro">

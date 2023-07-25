@@ -24,8 +24,10 @@
 }
 
 .about-image img {
+padding-top: 20px;
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 .animate__animated {
   display: flex;
@@ -54,5 +56,8 @@
 
   .about-section {
     grid-column: 1 / 2;
+  }
+  .divider-about{
+    width: 100px;
   }
 }
