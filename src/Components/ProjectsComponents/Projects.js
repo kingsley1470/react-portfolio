@@ -24,7 +24,7 @@ class Projects extends Component {
   render() {
     return (
       <section id="projects">
-        <h2 className="experience__title">Portfolio</h2>
+        <h2 className="experience__title">Projects</h2>
         <hr className="divider" style={{ margin: "auto" }} />
         <div className="container-p portfolio__container">
           {data.map(({ id, image, title, github, demo }) => {
