@@ -1,3 +1,9 @@
+
+  @import url("https://fonts.googleapis.com/css?family=Sofia");
+
+
+
+
 .Home {
 
    padding: 40px; 
@@ -11,6 +17,13 @@ color: #333;
   margin: 0 auto;
 background-color: #f8f8f8;
 }
+.subheading-welcome{
+ padding-bottom: 15px;
+ 
+  color: #333;
+}
+
+
 
 .header {
   display: flex;
@@ -18,11 +31,14 @@ background-color: #f8f8f8;
   flex-wrap: wrap;
   margin-bottom: 40px;
   align-content: space-around;
+  font-size: large;
+  font-family: "Sofia", sans-serif;
+  font-size: 24px;
+  text-shadow: 3px 3px 3px #ababab;
 }
 
 .subheading {
-  font-size: 24px;
-  color: #333;
+padding-bottom: 5px;
 }
 
 
@@ -72,13 +88,13 @@ background-color: #f8f8f8;
     background-color: #f8f8f8;
   }
   .subheading {
-    font-size: 20px;
+    font-size: medium;
 
   }
 
   
   .great {
-    font-size: 16px;
+    font-size: medium;
   }
 
   .hero-shape {

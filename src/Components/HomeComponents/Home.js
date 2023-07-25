@@ -2,7 +2,7 @@ import React, { Component } from "react";
  import Intro from "./Intro";
 // import Mountain from "./Mountain";
 import "./Home.css";
-import AnimatedBox from "./AnimatedBox";
+// import AnimatedBox from "./AnimatedBox";
 
 class Home extends Component {
   render() {
@@ -11,15 +11,17 @@ class Home extends Component {
         <div className="home_container">
           <div className="header">
             <span className="subheading">Hello,</span>
-            <h2 className="myName"> I'm Kingsley Nwychukwu, and I'm thrilled to welcome you to my introduction page as a full-stack developer!</h2>
-            <h2>
-              <Intro /> 
-            </h2>
+            <div className="subheading-welcome">I'm thrilled to welcome you to my introduction page as a full-stack developer!</div>
+            <div>
+            <Intro /> 
+            </div>
+             
+      
             <br />
-            <h2 className="great">My job is to build websites and web applications that are functional and user-friendly.</h2>
+            <div className="great">My job is to build websites and web applications that are functional and user-friendly.</div>
           </div>
           <div className="container2">
-        <AnimatedBox />
+        {/* <AnimatedBox /> */}
           </div>
         </div>
       </div>

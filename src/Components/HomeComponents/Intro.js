@@ -6,15 +6,9 @@ function Intro() {
      
       getBeforeInit={(instance) => {
         instance
-          .type("Web Developer.")
-          .pause(750)
-          .delete(20)
-          .pause(500)
-          .type("Full Stack Developer.")
-          .pause(750)
-          .delete(26)
-          .type("I bring your ideas  to life.");
-
+          .type("Name: Kingsley </br>Profession: Full Stack Developer</br> </br> I am always eager to explore new trends and technologies in the industry, seeking innovative ways to enhance the overall user experience and optimize website performance.")
+          
+        
     
         return instance;
       }}
