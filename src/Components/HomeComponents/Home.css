@@ -112,7 +112,7 @@ height: auto;
   
   .home_container {
     font-size: 20px;
-    height: auto;
+    height: fit-content;
     max-width: 350px;
     margin: 0 auto;
     background-color: #f8f8f8;

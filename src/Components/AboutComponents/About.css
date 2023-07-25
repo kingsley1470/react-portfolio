@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 700px;
-  height: 75vh;
+  height: fit-content;
   background-color: #f8f8f8;
 }
 
