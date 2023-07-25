@@ -105,12 +105,14 @@ padding-bottom: 5px;
 
 @media (max-width: 480px) {
   .Home {
-
+height: auto;
      padding: 13px; 
   
   }
   
   .home_container {
+    font-size: 20px;
+    height: auto;
     max-width: 350px;
     margin: 0 auto;
     background-color: #f8f8f8;
