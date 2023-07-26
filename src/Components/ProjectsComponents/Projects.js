@@ -16,7 +16,7 @@ const data = [
     image: PIC2,
     title: "Landing Page",
     github: "https://github.com/kingsley1470",
-    demo: "https://pokemon-fight.netlify.app/"
+    demo: "https://pokemon-fight.netlify.app/",
   },
 ];
 
@@ -25,7 +25,6 @@ class Projects extends Component {
     return (
       <section id="projects" className="project-container">
         <h2 className="experience__title">Projects</h2>
-        <hr className="divider" style={{ margin: "auto" }} />
         <div className="container-p portfolio__container">
           {data.map(({ id, image, title, github, demo }) => {
             return (
@@ -62,4 +61,3 @@ class Projects extends Component {
 }
 
 export default Projects;
-

@@ -18,8 +18,8 @@ class Skills extends Component {
   render() {
     return (
       <section id="skills" className="experience-section">
-        <h2 className="experience__title">My Experiences</h2>
-        <hr className="divider" />
+        <h2 className="experience__title">My Skills</h2>
+        <div className="divider"></div>
         <div className="container-skills experience__container">
           <div className="experience__frontend">
             <h3>Frontend Development</h3>

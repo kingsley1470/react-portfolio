@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 700px;
-  height: fit-content;
+  
   background-color: #f8f8f8;
 }
 
@@ -13,11 +13,16 @@
   grid-gap: 20px;
   width: 70%;
 }
-.About{
-  height: 76vh;
-  display: flex;
-  justify-content: center;
+
+  .About {
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
+
 
 .about-section {
   display: flex;

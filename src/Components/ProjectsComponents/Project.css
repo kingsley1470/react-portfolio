@@ -1,14 +1,14 @@
 /* portfolio.css */
 
-.project-container{
-  height: 76vh;
+.project-container {
+
 }
 .portfolio__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-height: fit-content;
+  height: fit-content;
 }
 
 .portfolio__item {

@@ -16,7 +16,7 @@ const Footer = () => {
       <a href="https://github.com/kingsley1470" className="social-link">
         <MDBIcon fab icon="github" />
       </a>
-      <a href="https://samflab.medium.com" className="social-link">
+      <a href="https" className="social-link">
         <MDBIcon fab icon="medium-m" />
       </a>
     </MDBContainer>
@@ -27,7 +27,10 @@ const Footer = () => {
       <h4 className="follow">Reach out to me at</h4>
       {renderSocialLinks()}
       <span>
-        <p className="my-name">  Made by <br></br> Kingsley Nwachukwu ♡</p>
+        <p className="my-name">
+          {" "}
+          Made by <br></br> Kingsley Nwachukwu ♡
+        </p>
       </span>
       <Link
         id="scrollUp"

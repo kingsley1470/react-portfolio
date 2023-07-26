@@ -6,9 +6,9 @@
   border-top: 1px solid #e2e5e7;
   margin: 60px;
 }
-.social-links{
-display: flex;
-justify-content: space-evenly;
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
 }
 .follow {
   display: block;
@@ -64,5 +64,5 @@ justify-content: space-evenly;
   .social-links {
     display: flex;
     justify-content: space-between;
-}
+  }
 }

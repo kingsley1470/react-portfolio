@@ -1,29 +1,22 @@
-
-  @import url("https://fonts.googleapis.com/css?family=Sofia");
-
-
-
+@import url("https://fonts.googleapis.com/css?family=Sofia");
 
 .Home {
-height: 76vh;
-   padding: 40px; 
-font-family: sans-serif;
-color: #333;
+  padding: 40px;
+  font-family: sans-serif;
+  color: #333;
 }
 
 .home_container {
   max-width: 700px;
-  height: 65vh;
+  height: 60vh;
   margin: 0 auto;
-background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
-.subheading-welcome{
- padding-bottom: 15px;
- 
+.subheading-welcome {
+  padding-bottom: 15px;
+
   color: #333;
 }
-
-
 
 .header {
   display: flex;
@@ -38,10 +31,8 @@ background-color: #f8f8f8;
 }
 
 .subheading {
-padding-bottom: 5px;
+  padding-bottom: 5px;
 }
-
-
 
 .great {
   font-size: 18px;
@@ -89,10 +80,8 @@ padding-bottom: 5px;
   }
   .subheading {
     font-size: medium;
-
   }
 
-  
   .great {
     font-size: medium;
   }
@@ -105,11 +94,10 @@ padding-bottom: 5px;
 
 @media (max-width: 480px) {
   .Home {
-height: auto;
-     padding: 13px; 
-  
+    height: auto;
+    padding: 13px;
   }
-  
+
   .home_container {
     font-size: 20px;
     height: fit-content;
@@ -120,8 +108,6 @@ height: auto;
   .subheading {
     font-size: 18px;
   }
-
-
 
   .great {
     font-size: 14px;

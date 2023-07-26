@@ -17,11 +17,7 @@ class About extends Component {
             />
           </div>
           <div className="about-section animate__animated animate__fadeIn">
-            <h2 className="about-header">
-              About Me
-              <hr className="divider-about " />
-            </h2>
-
+            <h2 className="about-header">About Me</h2>
             <div className="about-grid">
               <div className="about-intro">
                 <p>
@@ -29,12 +25,12 @@ class About extends Component {
                   developing solutions that aim for a great user experience.
                 </p>
                 <p>
-                As a full-stack developer, my goal is to contribute to the
-                development of dynamic and scalable web applications. I have
-                experience in both front-end and back-end technologies,
-                including HTML, CSS, JavaScript, React, Node.js, Express, and
-                MongoDB.
-              </p>
+                  As a full-stack developer, my goal is to contribute to the
+                  development of dynamic and scalable web applications. I have
+                  experience in both front-end and back-end technologies,
+                  including HTML, CSS, JavaScript, React, Node.js, Express, and
+                  MongoDB.
+                </p>
               </div>
             </div>
           </div>
