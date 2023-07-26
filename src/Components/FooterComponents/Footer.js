@@ -27,7 +27,7 @@ const Footer = () => {
       <h4 className="follow">Reach out to me at</h4>
       {renderSocialLinks()}
       <span>
-        Made by <p className="my-name">Kingsley Nwachukwu ♡</p>
+        <p className="my-name">  Made by <br></br> Kingsley Nwachukwu ♡</p>
       </span>
       <Link
         id="scrollUp"

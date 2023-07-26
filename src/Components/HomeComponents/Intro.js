@@ -6,7 +6,7 @@ function Intro() {
      
       getBeforeInit={(instance) => {
         instance
-          .type("Name: Kingsley </br>Profession: Full Stack Developer</br> </br> I am always eager to explore new trends and technologies in the industry, seeking innovative ways to enhance the overall user experience and optimize website performance.")
+          .type("Name: Kingsley </br>Profession: Full Stack Developer</br> </br> I am always eager to explore new trends and technologies, to enhance the overall user experience and optimize website performance.")
           
         
     

@@ -34,11 +34,11 @@ class Skills extends Component {
                 <FaCss3 className="experience__icon" />
                 <div>
                   <h4>CSS</h4>
-                  <small className="text-light">Advanced</small>
+                
                 </div>
               </article>
               <article className="experience__details">
-                <FaJs className="experience__icon" />
+                <FaJs className="experience__icon" width={"10px"}/>
                 <div>
                   <h4>Javascript</h4>
                 </div>
