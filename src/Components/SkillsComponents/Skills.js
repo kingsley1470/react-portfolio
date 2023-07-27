@@ -12,6 +12,8 @@ import {
   FaNode,
   FaMdb,
   FaUserCircle,
+  FaMagic,
+  
 } from "react-icons/fa";
 
 class Skills extends Component {
@@ -97,6 +99,7 @@ class Skills extends Component {
                 </div>
               </article>
               <article className="experience__details">
+                <FaMagic className="experience__icon" />
                 <div>
                   <h4>MySQL</h4>
                 </div>
